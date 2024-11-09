@@ -1,0 +1,87 @@
+/* Estilos básicos */
+body {
+    background-color: #011C27;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Estilos del perfil */
+.perfil {
+    margin-bottom: 30px;
+}
+
+.foto-perfil {
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+/* Estilos para el nombre y descripción */
+.nombre {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.descripcion {
+    color: #e9e9e9;
+    margin-bottom: 15px;
+}
+
+/* Estilos para los iconos de redes sociales */
+.redes-sociales {
+    margin-bottom: 30px;
+}
+
+.redes-sociales img {
+    width: 24px;
+    height: 24px;
+    margin: 0 10px;
+}
+
+/* Efecto al pasar el mouse por los iconos */
+.redes-sociales img:hover {
+    transform: scale(1.2);
+    transition: 0.3s;
+}
+
+/* Estilos para los botones de enlaces */
+.enlaces {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.boton {
+    display: block;
+    background-color: transparent;
+    border: 2px solid rgb(255, 255, 255);
+    color: white;
+    padding: 15px;
+    margin-bottom: 15px;
+    text-decoration: none;
+    border-radius: 80px;
+}
+
+/* Efecto al pasar el mouse por los botones */
+.boton:hover {
+    background-color: rgb(255, 255, 255);
+    color: #011C27
+}
+
+/* Estilos del pie de página */
+.pie-pagina {
+    margin-top: 30px;
+    opacity: 0.5;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* O si solo quieres aplicarlo a elementos específicos: */
+.boton {
+    font-family: 'Roboto', sans-serif;
+}
